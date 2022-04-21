@@ -1,0 +1,56 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	font-family: Arial, sans-serif;
+	font-size: 16px;
+	background-color: darkgray;
+}
+.container {
+	max-width: 980px;
+	margin: 0 auto;
+}
+.block p {
+	margin: 10px 0;
+}
+.block a {
+	text-decoration: none;
+	color: #00f;
+	padding-left: 35px;
+	display: inline-block;
+	line-height: 30px;
+}
+p[class='title'] {
+	text-align: center;
+}
+p[title~='Ð·Ð°Ð³Ð¾Ð»Ð¾Ð²Ð¾Ðº'] {
+	font-size: 30px;
+}
+[class^='block-'] {
+	margin: 20px auto;
+	padding: 10px;
+	width: 200px;
+	border: 2px solid #000;
+}
+.block-2 {
+	border-color: green;
+}
+.block-3 {
+	border-color: red;
+}
+a[href$='.doc'] {
+	background: url(doc.png) left 50% no-repeat;
+	background-size: 25px;
+}
+a[href$='.pdf'] {
+	background: url(pdf.png) left 50% no-repeat;
+	background-size: 25px;
+}
+a[href$='.txt'] {
+	background: url(txt.png) left 50% no-repeat;
+	background-size: 25px;
+}
+p[title*='Ð¾Ð²Ð¾Ðº'] {
+	color: red;
+}

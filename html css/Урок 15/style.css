@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Arial, sans-serif;
+    background-color: darkgoldenrod;
+    font-size: 16px;
+}
+.container{
+    max-width: 980px;
+    margin: 0 auto;
+}
+.block p{
+    margin: 15px 0;
+    font-size: 16px;
+}
+.block p:first-child::before{
+    content: "1)";
+}
+.block p:nth-child(2)::after{
+    content: "*";
+    color: blue;
+}
+.block p::first-line {
+    background-color: chartreuse;
+}
+.block p::first-letter {
+    font-size: 20px;
+    line-height: 20px;
+    color: darkblue;
+}
+input{
+    width: 100px;
+    font-size: 20px;
+    color: black;
+    padding: 5px;
+    cursor: pointer;
+}
+input::placeholder{
+    color: red;
+    opacity: 1;
+}

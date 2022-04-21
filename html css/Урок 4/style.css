@@ -1,0 +1,52 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    background-color: rgb(197, 184, 184);
+}
+.element{
+    width: 400px;
+    height: 250px;
+    background: url(main_antelope-canyon_5120x2880_4xiuz.jpg) no-repeat;
+    margin: 20px auto;
+    border: 5px solid #000;
+    opacity: 1;
+}
+.element:hover{
+    background: url(mac.jpg) no-repeat;
+    border: 5px solid red;
+}
+.element-two{
+    width: 400px;
+    height: 250px;
+    margin: 20px auto;
+    border: 5px solid #000;
+    opacity: 0.5;
+    text-align: left;
+}
+.element-two:hover{
+    background-color: #000;
+    border: 5px solid red;
+}
+p{
+    color: royalblue;
+    text-align: center;
+    margin-top: 80px;
+}
+p:hover{
+    cursor: pointer;
+    color: red;
+}
+.element-three{
+    width: 300px;
+    margin: 20px auto 300px;
+    border: 2px solid #000;
+    opacity: 0.5;
+}
+.element-three img{
+    display: block;
+    width: 100%;
+}

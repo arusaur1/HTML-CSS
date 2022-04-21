@@ -1,0 +1,33 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: Arial, sans-serif;
+    background-color: darkgray;
+    font-size: 16px;
+}
+.block1, .block2, .block3{
+    width: 400px;
+    height: 200px;
+    margin: 20px auto;
+    cursor: pointer;
+}
+.block1{
+    background-color: black;
+    background-image: linear-gradient(red, blue);
+}
+h4{
+    text-align: center;
+    font-size: 20px;
+}
+h4:hover{
+    color: blue;
+}
+.block2{
+    background-color: blue;
+    background-image: linear-gradient(to right, black, white);
+}
+.block3{
+    background-color: white;
+}

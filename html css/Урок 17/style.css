@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Roboto, sans-serif;
+    font-size: 16px;
+    background-color: darkgrey;
+}
+.container{
+    max-width: 980px;
+    margin: 0 auto;
+}
+[class^='block-'] {
+    width: 100px;
+    height: 100px;
+    margin: 20px auto;
+    background-color: #000;
+}
+.block-1{
+    transform: translate(100px);
+}
+.block-1:hover{
+    transform: rotateX(360deg);
+    transition: 0.5s;
+}
+.block-2:hover{
+    transform: translate(45deg);
+    transition: 0.5s;
+}
+.block-2{
+    background-color: red;
+}
+.block-3{
+    background-color: white;
+    transform: skewX(45deg);
+}
+.block-4{
+    background-color: yellow;
+    transform: rotate(45deg);
+}
